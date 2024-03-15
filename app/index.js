@@ -1,4 +1,4 @@
-import { useStat } from "react";
+import { useState } from 'react';
 import { View, Text, ScrollView, SafeAreaView } from "react-native";
 import { useRouter, Stack } from "expo-router";
 
@@ -21,7 +21,7 @@ const Home = () => {
                         <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />
                     ),
                     headerRight: () => (
-                        <ScreenHeaderBtn iconUrl={icons.profile} dimension="100%" />
+                        <ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />
                     ),
                     headerTitle: "",
                 }}
